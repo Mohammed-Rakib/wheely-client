@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { UserContext } from '../../../App';
 import logo from '../../../image/logo.png'
 import './NavBar.css'
 const NavBar = () => {
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <div className="container py-4">
             <Navbar expand="lg">
@@ -17,7 +19,10 @@ const NavBar = () => {
                 <Nav.Link as={Link} to="/dashboard" >Dashboard</Nav.Link>
                 <Nav.Link as={Link} to="/admin" >Admin</Nav.Link>
                 <Nav.Link as={Link} to="/review" >Contact</Nav.Link>
-                <Nav.Link as={Link} className="btn btn-outline-primary text-white" to="/login" >Login</Nav.Link>
+                {
+                    loggedInUser.email ? <Nav.Link >{loggedInUser.name}</Nav.Link> : 
+                    <Nav.Link as={Link} className="btn btn-outline-success text-danger" to="/login" >Login</Nav.Link>
+                }
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
