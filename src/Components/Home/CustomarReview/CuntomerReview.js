@@ -6,7 +6,7 @@ import CutomarReviewCard from './CutomarReviewCard';
 const CuntomerReview = () => {
     const [reviews, setReviews] = useState([]);
     useEffect( () => { 
-        const url = 'http://localhost:4000/review';
+        const url = 'https://wheely-service.herokuapp.com/review';
         fetch(url)
         .then(response => response.json())
         .then(result => {

@@ -12,7 +12,7 @@ const Review = () => {
             review: data.review,
         };
         console.log(reviewData);
-        const url = `http://localhost:4000/addReview`;
+        const url = `https://wheely-service.herokuapp.com/addReview`;
         fetch(url, {
             method: 'POST',
             headers: {
@@ -29,7 +29,7 @@ const Review = () => {
     return (
         <div className="container my-5">
             <DashboardNav></DashboardNav>
-            <h1 className="my-2 simple-text">Add Services</h1>
+            <h1 className="my-2 ">Please Make a review </h1>
             <hr className="horrizontal-role mb-5"/>
                 <form onSubmit={handleSubmit(onSubmit)} >
                 <input className="form-control my-2" name="name" placeholder="Your Name" {...register("name")} />

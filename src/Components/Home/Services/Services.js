@@ -4,7 +4,7 @@ import ServiceCard from './ServiceCard';
 const Services = () => {
     const [services, setService] = useState([]);
     useEffect( () => { 
-        const url = 'http://localhost:4000/services';
+        const url = 'https://wheely-service.herokuapp.com/services';
         fetch(url)
         .then(response => response.json())
         .then(result => {
