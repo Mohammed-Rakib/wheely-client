@@ -1,0 +1,9 @@
+.plan-card:hover{
+    background:#e70d3c21;
+    border: none;
+}
+.plan-card{
+    border-radius:10px;
+    border: 2px solid #e70d3b;
+    transition: background 0.4s border 0.7s!important;
+}

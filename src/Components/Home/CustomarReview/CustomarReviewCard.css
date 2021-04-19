@@ -1,0 +1,12 @@
+svg.star {
+    color: orange;
+    font-size: 28px;
+}
+.review-card{
+    border: none;
+    box-shadow: -14px 5px 12px 0px grey;
+    transition:all 1s;
+}
+.review-card:hover{
+    box-shadow: 14px -5px 12px 0px grey;
+}

@@ -1,0 +1,43 @@
+hr.horrizontal-role {
+    height: 1px;
+    background: red;
+    width: 134px;
+    margin: 13px 0px;
+    /* margin: 0; */
+}
+svg.facebook{
+    font-size: 41px;
+    color: white;
+    background: #2b2b85fa;
+    padding: 11px;
+    cursor: pointer;
+    margin: 5px 6px;
+    border-radius: 42px;
+}
+.twitter{
+    font-size: 41px;
+    color: #ebf7fb;
+    background: #009cd4;
+    padding: 11px;
+    margin: 5px 6px;
+    border-radius: 42px;
+    cursor: pointer;
+}
+.linkedIn{
+    font-size: 41px;
+    color: #ebf7fb;
+    background: rgba(0, 0, 255, 0.835);
+    padding: 11px;
+    margin: 5px 6px;
+    border-radius: 42px;
+    cursor: pointer;
+}
+.youtube{
+    font-size: 41px;
+    color: #ebf7fb;
+    background:#e70d3b ;
+    padding: 11px;
+    margin: 5px 6px;
+    border-radius: 42px;
+    cursor: pointer;
+}

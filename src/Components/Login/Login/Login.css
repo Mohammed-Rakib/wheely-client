@@ -1,0 +1,9 @@
+button.btn.googleSignIn {
+    border: 1px solid #8080805e;
+    padding: 18px 38px;
+    border-radius: 49px;
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+    margin: 200px auto;
+}

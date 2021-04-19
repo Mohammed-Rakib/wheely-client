@@ -1,0 +1,10 @@
+hr.horrizontal {
+    width: 200px;
+    background: #fd5d46;
+    border-radius: 57px;
+    margin-bottom: 45px;
+    height: 2px;
+}
+hr.horrizontal:hover{
+    background: #e70d3b;
+}

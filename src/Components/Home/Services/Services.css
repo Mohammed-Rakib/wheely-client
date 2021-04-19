@@ -1,0 +1,14 @@
+.service-card:hover .service-image{
+    transform:scale(1.1)
+}
+.service-image{
+    transition: all .5s
+}
+.service-card{
+    border: none;
+    box-shadow:none;
+    transition: all .8s;
+}
+.service-card:hover{
+    box-shadow: -16px 12px 15px 0px #c1b1b7;
+}

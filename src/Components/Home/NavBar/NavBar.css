@@ -1,0 +1,10 @@
+a.nav-link {
+    padding: 10px 16px !important;
+    font-weight: 700;
+    color: black !important;
+    transition: color 0.5s
+}
+
+a.nav-link:hover{
+    color: rgb(231 13 59) !important;
+}
